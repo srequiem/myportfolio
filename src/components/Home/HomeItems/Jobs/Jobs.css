@@ -1,0 +1,28 @@
+.jobs {
+    width: 100vw;
+    background: white;
+    padding-bottom: 20px;
+}
+
+.jobs-title {
+
+    /* background-image: -webkit-linear-gradient(30deg, #007aff, #32cbfc);
+    font-family: 'CabinetGrotesk-Black';
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent; */
+    color: #030405;
+    font-family: 'CabinetGrotesk-Black';
+    font-size: 34px;
+    letter-spacing: .004em;
+    line-height: 1.125;
+    margin: 0px;
+    padding-top: 50px;
+    padding-bottom: 15px;
+}
+
+@media only screen and (min-width: 992px) {
+    .jobs-title {
+        font-size: 3em;
+    }
+}

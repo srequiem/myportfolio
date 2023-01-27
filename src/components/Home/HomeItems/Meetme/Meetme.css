@@ -1,0 +1,48 @@
+.Meetme {
+    width: 100vw;
+    margin-top: 50px;
+    margin-bottom: 52px;
+    position: relative;
+    font-family: 'CabinetGrotesk-Black';
+    color: white;
+}
+
+.Meetme img {
+    width: inherit;
+    max-width: 640px;
+}
+
+.Meetme_titlebig {
+    font-size: 34px;
+    letter-spacing: .004em;
+    line-height: 1.125;
+    margin-top: -60px;
+}
+
+.Meetme_subtitle {
+    font-size: 23px;
+    letter-spacing: .004em;
+    line-height: 1.125;
+    font-family: 'CabinetGrotesk-Bold';
+}
+
+.Meetme video {
+    width: 100vw;
+    height: 65vh;
+    object-fit: cover;
+    position: relative;
+}
+
+@media only screen and (min-width: 992px) {
+    .Meetme {
+        height: auto;
+    }
+
+    .Meetme_subtitle {
+        font-size: 25px;
+    }
+
+    .Meetme video {
+        height: 85vh;
+    }
+}

@@ -1,0 +1,38 @@
+.slider {
+    background-color: white;
+}
+
+.slider-item {
+    width: 100vw;
+    height: fit-content !important;
+    margin: auto;
+}
+
+.slider-img {
+    border-radius: 15px;
+    height: auto;
+    max-height: 470px;
+    max-width: 365px;
+    object-fit: cover;
+}
+
+@media only screen and (min-width: 600px) {
+    .slider {
+        height: 550px;
+    }
+
+    .slider-img {
+        max-width: 520px;
+    }
+}
+
+@media only screen and (min-width: 775px) {
+    .slider {
+        height: 550px;
+    }
+
+    .slider-img {
+        max-height: none;
+        max-width: 100%;
+    }
+}

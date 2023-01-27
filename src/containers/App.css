@@ -1,0 +1,21 @@
+@import url('/fonts/satoshi/Fonts/WEB/css/satoshi.css');
+@import url('/fonts/cabinet-grotesk//Fonts/WEB/css/cabinet-grotesk.css');
+
+
+#root {
+  font-family: 'CabinetGrotesk-Medium';
+  color: #FFFFE3;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 8%;
+  width: 100%;
+
+  -webkit-user-select: none;
+  /* Safari */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* IE10+/Edge */
+  user-select: none;
+  /* Standard */
+}
