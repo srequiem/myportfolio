@@ -11,19 +11,21 @@ const Contact = ({ isVisible, setVisible }) => {
                             <button className='close-btn' onClick={() => setVisible(false)}>
                                 ✕
                             </button>
-                            <div className='title contact-title'>Contact</div>
-                            <div className='menu'>
-                                <div className='items'>
-                                    <p className='title items-title'>Email</p>
-                                    <a href="mailto:sacharequiem@live.fr">sacharequiem@live.fr</a>
+                            <div className='popup-inner-title'>
+                                <h1 className='contact-title'>Thank you for your interest.</h1>
+                            </div>
+                            <div className='popup-inner-menu'>
+                                <div className='popup-inner-items'>
+                                    <div className='popup-inner-items-title'>Email</div>
+                                    <div><a href="mailto:sacharequiem@live.fr">sacharequiem@live.fr</a></div>
                                 </div>
-                                <div className='items'>
-                                    <p className='title items-title'>LinkedIn</p>
-                                    <a href="https://www.linkedin.com/in/sacharequiem/">linkedIn/sacharequiem</a>
+                                <div className='popup-inner-items'>
+                                    <div className='popup-inner-items-title'>LinkedIn</div>
+                                    <div><a href="https://www.linkedin.com/in/sacharequiem/">In/sacharequiem</a></div>
                                 </div>
-                                <div className='items'>
-                                    <p className='title items-title'>Freelance</p>
-                                    <a href="https://www.malt.fr/profile/sacharequiem">malt/sacharequiem</a>
+                                <div className='popup-inner-items'>
+                                    <div className='popup-inner-items-title'>Freelance</div>
+                                    <div><a href="https://www.malt.fr/profile/sacharequiem">malt/sacha</a></div>
                                 </div>
                             </div>
                         </div>

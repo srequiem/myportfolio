@@ -16,12 +16,12 @@
 
 a {
   font-weight: 500;
-  color: #0a0ad3;
+  color: #0e0ea2;
   text-decoration: inherit;
 }
 
 a:hover {
-  color: #0a0ad3bc;
+  color: #0e0ea2b5;
 }
 
 body {
@@ -50,14 +50,6 @@ button {
   transition: border-color 0.25s;
 }
 
-button:hover {
-  border-color: #646cff;
-}
-
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
 
 @media (prefers-color-scheme: light) {
   :root {

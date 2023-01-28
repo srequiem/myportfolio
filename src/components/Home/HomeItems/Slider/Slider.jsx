@@ -32,7 +32,7 @@ const Slider = () => {
             spaceBetween={30}
             centeredSlides={true}
             autoplay={{
-                delay: 10000,
+                delay: 2500,
                 disableOnInteraction: false,
             }}
             navigation={true}
@@ -42,7 +42,7 @@ const Slider = () => {
             {IMAGES.map(i => {
                 return (
                     <SwiperSlide className='slider-item' key={i.id}>
-                        <img src={i.path} id={i.id} className="slider-img" width={i.width} />
+                        <a href={i.path}><img src={i.path} id={i.id} className="slider-img" width={i.width} /></a>
                     </SwiperSlide>
                 )
             })}
