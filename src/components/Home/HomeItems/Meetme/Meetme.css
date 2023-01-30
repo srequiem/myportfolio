@@ -17,6 +17,19 @@
     letter-spacing: .004em;
     line-height: 1.125;
     margin-top: -60px;
+    animation: title 1s ease forwards;
+}
+
+@keyframes title {
+    from {
+        opacity: .5;
+        transform: translatey(80%);
+    }
+
+    to {
+        opacity: 1;
+        transform: translatey(0%);
+    }
 }
 
 .Meetme_subtitle {

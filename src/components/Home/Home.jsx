@@ -7,11 +7,15 @@ import Contact from '/src/components/Contact/Contact.jsx';
 import Meetme from '/src/components/Home/HomeItems/Meetme/Meetme';
 import Studies from '/src/components/Home/HomeItems/Studies/Studies';
 import Jobs from '/src/components/Home/HomeItems/Jobs/Jobs';
+import Feedback from '/src/components/Home/HomeItems/Feedback/Feedback';
 
 const Home = () => {
   const [popupVisible, setPopupVisible] = useState(false);
   console.log(popupVisible, typeof (popupVisible));
 
+  const handleMove = () => {
+    window.scrollTo({ top: 4131, behavior: "slow" }); // here it goes
+  }
   return (
     <>
       <div className='homeContainer'>
@@ -23,17 +27,17 @@ const Home = () => {
           <div className='inline_title'>Made by<br /> passion, Powered by <span className="stylish-passion">React</span></div>
         </div>
 
-        <div>
-          <button className='homeContactButton' onClick={() => setPopupVisible(true)}>
-            {'CONTACT'}
-          </button>
-        </div>
+        <button className='homeContactButton' onClick={() => setPopupVisible(true)}>
+          {'CONTACT'}
+        </button>
       </div>
       <Contact isVisible={popupVisible} setVisible={setPopupVisible} />
       <Meetme />
       <Studies />
       <Jobs />
       {/* <Whoami /> */}
+      <Feedback />
+      <Contact isVisible={true} setVisible={setPopupVisible} />
     </>
   )
 }

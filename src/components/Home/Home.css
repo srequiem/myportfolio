@@ -20,6 +20,20 @@
     font-size: 15px;
     letter-spacing: 2px;
     padding: 15px 25px;
+    animation: hello1 2s ease forwards;
+}
+
+
+@keyframes hello1 {
+    from {
+        opacity: 0;
+        transform: translatey(80%);
+    }
+
+    to {
+        opacity: 1;
+        transform: translatey(0%);
+    }
 }
 
 .side {
@@ -53,22 +67,19 @@
     margin: auto;
     max-width: 1252px;
     text-transform: uppercase;
+    animation: hello 2s ease forwards;
 }
 
-.wheel {
-    position: absolute;
-    top: 369px;
-    left: 565px;
-}
+@keyframes hello {
+    from {
+        opacity: 0;
+        transform: translatey(20%);
+    }
 
-.logoMe {
-    border-radius: 50%;
-    max-height: 22vw;
-    will-change: filter;
-}
-
-.logoMe:hover {
-    filter: drop-shadow(0 0 1em #e29169);
+    to {
+        opacity: 1;
+        transform: translatey(0%);
+    }
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -87,36 +98,6 @@
 
     to {
         transform: rotate(359deg);
-    }
-}
-
-@-webkit-keyframes webkit-rotation {
-    from {
-        -webkit-transform: rotate(0deg);
-    }
-
-    to {
-        -webkit-transform: rotate(359deg);
-    }
-}
-
-@-moz-keyframes moz-rotation {
-    from {
-        -moz-transform: rotate(0deg);
-    }
-
-    to {
-        -moz-transform: rotate(359deg);
-    }
-}
-
-@-o-keyframes o-rotation {
-    from {
-        -o-transform: rotate(0deg);
-    }
-
-    to {
-        -o-transform: rotate(359deg);
     }
 }
 
