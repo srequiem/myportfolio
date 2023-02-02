@@ -1,0 +1,118 @@
+.Studies {
+    background: white;
+    color: white;
+}
+
+.item_bigtitle {
+    font-family: 'CabinetGrotesk-Bold';
+    font-size: 34px;
+    letter-spacing: .004em;
+    line-height: 1.125;
+    padding: 40px 20px 0px 20px;
+    color: darkblue;
+}
+
+.item_container {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    align-items: baseline;
+    overflow: scroll;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 30px;
+}
+
+.item_container::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+.items {
+    min-width: 285px;
+    border-radius: 10px;
+    margin: 15px;
+    list-style: none;
+}
+
+.items_tile {
+    position: relative;
+    background: darkblue;
+    padding: 20px;
+    border-radius: 20px;
+    height: 515px;
+}
+
+.items_number {
+    border: 2px solid white;
+    width: 40px;
+    height: 40px;
+    line-height: 44px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 50%;
+    font-family: 'CabinetGrotesk-Black';
+    margin: auto;
+}
+
+.items_title {
+    font-size: 25px;
+    font-family: 'CabinetGrotesk-Bold';
+    margin-bottom: 5px;
+}
+
+.items_subtitle {
+    font-size: 16px;
+    font-family: 'CabinetGrotesk-Bold';
+    margin-top: 10px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.items_title2 {
+    font-size: 20px;
+    font-family: 'CabinetGrotesk-Bold';
+    margin-bottom: 10px;
+}
+
+@media only screen and (min-width: 420px) {
+    .item_container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: baseline;
+        padding: 10px;
+        width: 343px;
+    }
+
+    .items_tile {
+        height: auto;
+    }
+
+}
+
+@media only screen and (min-width: 992px) {
+
+    .item_container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        /* justify-content: space-around; */
+        align-items: baseline;
+        /* padding: 10px; */
+        /* width: 343px; */
+        width: 100%;
+        padding: 0;
+        padding-bottom: 40px;
+    }
+
+    .items_tile {
+        height: 515px;
+    }
+
+    .item_bigtitle {
+        font-size: 44px;
+    }
+
+    .items {
+        width: 230px;
+    }
+}

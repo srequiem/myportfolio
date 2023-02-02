@@ -8,7 +8,6 @@ const Contact = ({ isVisible, setVisible }) => {
                 <div className='Contact'>
                     <div className='contact-title'>
                         <h1 className='contact-title'>Thank you for your interest.</h1>
-                        {/* <h2>Hits the links bellow to reach me</h2> */}
                     </div>
                     <h3>Hits the links bellow to reach me.</h3>
                     <div className='infos'>

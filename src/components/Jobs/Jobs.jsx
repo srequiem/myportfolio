@@ -1,6 +1,6 @@
 import React from 'react';
-import Slider from '/src/components/Home/HomeItems/Slider/Slider';
-import '/src/components/Home/HomeItems/Jobs/Jobs.css';
+import Slider from '/src/components/Slider/Slider';
+import '/src/components/Jobs/Jobs.css';
 
 const Jobs = () => {
 
