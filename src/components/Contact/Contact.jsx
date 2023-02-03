@@ -5,7 +5,7 @@ const Contact = ({ isVisible, setVisible }) => {
     return (
         <>
             {isVisible === true ? (
-                <div className='Contact'>
+                <div id='Contact'>
                     <div className='contact-title'>
                         <h1 className='contact-title'>Thank you for your interest.</h1>
                     </div>

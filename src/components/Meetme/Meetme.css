@@ -1,23 +1,24 @@
 .Meetme {
     width: 100vw;
-    margin-top: 50px;
-    margin-bottom: 52px;
+    margin-top: 70px;
+    margin-bottom: 50px;
     position: relative;
-    font-family: 'CabinetGrotesk-Black';
     color: white;
 }
 
 .Meetme img {
     width: inherit;
     max-width: 640px;
+    padding-top: 75px;
 }
 
 .Meetme_titlebig {
     font-size: 34px;
     letter-spacing: .004em;
     line-height: 1.125;
-    margin-top: -60px;
+    margin-top: -17px;
     animation: title 1s ease forwards;
+    font-family: 'CabinetGrotesk-Bold';
 }
 
 @keyframes title {
@@ -33,10 +34,10 @@
 }
 
 .Meetme_subtitle {
-    font-size: 23px;
+    font-size: 18px;
     letter-spacing: .004em;
     line-height: 1.125;
-    font-family: 'CabinetGrotesk-Bold';
+    font-family: 'CabinetGrotesk-Medium';
 }
 
 .Meetme video {

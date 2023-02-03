@@ -14,7 +14,10 @@ const Home = () => {
   console.log(popupVisible, typeof (popupVisible));
 
   const handleMove = () => {
-    window.scrollTo({ top: 4131, behavior: "slow" }); // here it goes
+    const element = document.getElementById('Contact');
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
   }
   return (
     <>
@@ -27,7 +30,7 @@ const Home = () => {
           <div className='inline_title'>Made by<br /> passion, Powered by <span className="stylish-passion">React</span></div>
         </div>
 
-        <button className='homeContactButton' onClick={() => setPopupVisible(true)}>
+        <button className='homeContactButton' onClick={handleMove}>
           {'CONTACT'}
         </button>
       </div>
@@ -35,7 +38,6 @@ const Home = () => {
       <Meetme />
       <Studies />
       <Jobs />
-      {/* <Whoami /> */}
       <Feedback />
       <Contact isVisible={true} setVisible={setPopupVisible} />
     </>

@@ -6,26 +6,7 @@
     font-family: 'CabinetGrotesk-Bold';
 }
 
-.jobs-title {
-    /* background-image: -webkit-linear-gradient(30deg, #007aff, #32cbfc);
-    font-family: 'CabinetGrotesk-Black';
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent; */
-    font-size: 44px;
-    letter-spacing: .004em;
-    line-height: 1.125;
-    margin: 0px;
-    padding: 50px 24px 0px 24px;
-}
-
 .jobs-subtitle {
     font-family: 'CabinetGrotesk-Medium';
+    margin-top: 0px;
 }
-
-/* 
-@media only screen and (min-width: 992px) {
-    .jobs-title {
-        font-size: 44em;
-    }
-} */

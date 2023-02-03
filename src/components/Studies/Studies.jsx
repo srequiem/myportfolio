@@ -34,7 +34,7 @@ const Studies = () => {
                 <h1 className='item_bigtitle'>Programming is a gift.<br />Let's discuss mine.</h1>
                 <ul className='item_container'>
                     <li className='items'>
-                        <div className='items_tile'>
+                        <div className='items_tile bluedarkfont'>
                             <h2 className='items_number'><i className="fa-solid fa-graduation-cap"></i></h2>
                             <h3 className='items_title'>Software engineer</h3>
                             <h4 className='items_subtitle'>Former student of the 42school in Paris,
@@ -48,7 +48,7 @@ const Studies = () => {
                         </div>
                     </li>
                     <li className='items'>
-                        <div className='items_tile'>
+                        <div className='items_tile bluedarkfont'>
                             <h2 className='items_number'><i className="fa-brands fa-react"></i></h2>
                             <h3 className='items_title'>Frontend React.js</h3>
                             <h4 className='items_subtitle'>Since beginning my journey as a React frontend engineer over 4 years ago,<br />
@@ -60,7 +60,7 @@ const Studies = () => {
                         </div>
                     </li>
                     <li className='items'>
-                        <div className='items_tile'>
+                        <div className='items_tile bluedarkfont'>
                             <h2 className='items_number'><i className="fa-solid fa-rocket"></i></h2>
                             <h3 className='items_title'>Typescript</h3>
                             <h4 className='items_subtitle'>The Cherry on the cake<br />I use Ts to make my code more readable and easier to maintain.<br />
