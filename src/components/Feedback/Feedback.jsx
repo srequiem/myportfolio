@@ -2,7 +2,24 @@ import React, { useState, useEffect } from 'react'
 
 import './Feedback.css';
 
-const Feedback = () => {
+const Feedback = (name, position, title, text) => {
+
+    const [scrollPosition, setScrollPosition] = useState(0);
+
+    useEffect(() => {
+        window.addEventListener('scroll', handleScroll, { passive: true });
+
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
+
+    const handleScroll = () => {
+        const position = window.pageYOffset;
+        setScrollPosition(position);
+    };
+
+    console.log('scrollPosition: ', scrollPosition);
 
     return (
         <div className='Feedback'>
@@ -36,7 +53,7 @@ const Feedback = () => {
                     <div className='feedback-item-tile whitebgrd'>
                         <h2 className='feedback-title'>Dimitri Hauet</h2>
                         <h3 className='feedback-subtitle'>Développeur Fullstack, Lumi thd</h3>
-                        <h4 className='title-stars'>Super experience !</h4>
+                        <h4 className='title-stars'>Une belle decouverte</h4>
                         <h4 className='stars'>
                             <i class="fa-solid fa-star stars-color"></i>
                             <i class="fa-solid fa-star stars-color"></i>
