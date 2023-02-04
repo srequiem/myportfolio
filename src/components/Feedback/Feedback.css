@@ -3,3 +3,34 @@
     color: black;
     margin: 0;
 }
+
+.feedback_container {
+    display: flex;
+    margin: auto;
+    overflow: scroll;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    scrollbar-width: none;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+.feedback_container::-webkit-scrollbar {
+    display: none;
+}
+
+.feedback_items {
+    min-width: 285px;
+    border-radius: 10px;
+    list-style: none;
+    padding-right: 28px;
+}
+
+@media only screen and (min-width: 420px) {
+    .feedback_items {
+        min-width: 412px;
+        border-radius: 10px;
+        list-style: none;
+        padding-right: 28px;
+    }
+
+}

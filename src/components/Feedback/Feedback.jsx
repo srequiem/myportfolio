@@ -37,9 +37,9 @@ const Feedback = () => {
     return (
         <div className='Feedback'>
             <h1 className='bigTitle darkfont'>They talk about me</h1>
-            <ul className='item_container'>
+            <ul className='feedback_container'>
                 {feedbackData.map((item, key) => (
-                    <li className='items' key={key}>
+                    <li className='feedback_items' key={key}>
                         <FeedbackTile
                             name={item.name}
                             position={item.position}
