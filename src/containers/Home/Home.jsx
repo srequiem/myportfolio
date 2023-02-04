@@ -1,13 +1,17 @@
 import { useState } from 'react';
 
-import me from '/meme.png';
-
-import '/src/containers/Home.css';
+// Components
 import Contact from '/src/components/Contact/Contact.jsx';
 import Meetme from '/src/components/Meetme/Meetme';
 import Studies from '/src/components/Studies/Studies';
 import Jobs from '/src/components/Jobs/Jobs';
 import Feedback from '/src/components/Feedback/Feedback';
+
+// Styles
+import '/src/containers/Home/Home.css';
+
+// Image
+import me from '/meme.png';
 
 const Home = () => {
   const [popupVisible, setPopupVisible] = useState(false);

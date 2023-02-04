@@ -1,0 +1,41 @@
+.feedback_tile {
+    position: relative;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.feedback-title {
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.feedback-subtitle {
+    margin-bottom: 0;
+    text-align: left;
+    margin-top: 0px;
+    font-size: 15px;
+    color: grey;
+}
+
+.title-stars {
+    margin-bottom: 0px;
+    font-family: 'CabinetGrotesk-Black';
+    font-size: 20px;
+    margin-top: 7px;
+    text-align: left;
+}
+
+.stars {
+    margin-top: 0px;
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.long-text {
+    font-size: 13px;
+    text-align: left;
+    font-family: 'CabinetGrotesk-Bold';
+    margin-top: 0px;
+}

@@ -20,6 +20,9 @@ const IMAGES = [
     { id: 6, path: '/Deezer8.png', width: '752px' },
     { id: 7, path: '/Deezer3.png', width: '216px' },
     { id: 8, path: '/Deezer5.png', width: '216px' },
+    { id: 9, path: '/Devialet1.jpg', width: '904px' },
+    { id: 10, path: '/Devialet2.jpg', width: '300px' },
+    { id: 11, path: '/Devialet3.jpg', width: '290px' },
 
 ]
 

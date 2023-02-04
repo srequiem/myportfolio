@@ -74,11 +74,11 @@
 @media only screen and (min-width: 420px) {
     .item_container {
         flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-around;
+        /* flex-wrap: wrap; */
+        /* justify-content: space-around; */
         align-items: baseline;
         padding: 10px;
-        width: 343px;
+        /* width: 343px; */
     }
 
     .items {
@@ -97,6 +97,7 @@
         flex-direction: row;
         flex-wrap: wrap;
         align-items: baseline;
+        justify-content: space-around;
         width: 100%;
         padding: 0;
         padding-bottom: 40px;
