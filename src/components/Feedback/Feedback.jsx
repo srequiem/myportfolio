@@ -40,8 +40,6 @@ const Feedback = () => {
         setScrollPosition(position);
     };
 
-    console.log('scrollPosition: ', scrollPosition);
-
     return (
         <div className='Feedback'>
             <h1 className='bigTitle darkfont'>Testimonials</h1>

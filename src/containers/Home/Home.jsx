@@ -15,7 +15,6 @@ import me from '/meme.png';
 
 const Home = () => {
   const [popupVisible, setPopupVisible] = useState(false);
-  console.log(popupVisible, typeof (popupVisible));
 
   const handleMove = () => {
     const element = document.getElementById('Contact');
