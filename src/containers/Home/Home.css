@@ -27,7 +27,7 @@
 @keyframes hello1 {
     from {
         opacity: 0;
-        transform: translatey(80%);
+        transform: translatey(200%);
     }
 
     to {
@@ -168,5 +168,13 @@
 
     #root {
         margin-top: 0% !important;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .inline_title {
+        font-size: 17dvh;
+        line-height: 159px;
+        text-align: center;
     }
 }
