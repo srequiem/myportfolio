@@ -1,180 +1,158 @@
 .homeContainer {
-    max-width: 1280px;
-    margin: auto;
-    padding: 2rem;
-    z-index: 1;
+	max-width: 1280px;
+	margin: auto;
+	padding: 2rem;
+	z-index: 1;
 }
 
 .homeItems {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 24px;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 24px;
 }
 
 .homeContactButton {
-    background-color: white;
-    border-radius: 10px;
-    color: black;
-    cursor: pointer;
-    font-family: 'CabinetGrotesk-Black';
-    font-size: 15px;
-    letter-spacing: 2px;
-    padding: 10px 30px;
-    animation: hello1 2s ease forwards;
+	background-color: white;
+	border-radius: 10px;
+	color: black;
+	cursor: pointer;
+	font-family: 'CabinetGrotesk-Black';
+	font-size: 15px;
+	letter-spacing: 2px;
+	padding: 10px 30px;
+	animation: hello1 2s ease forwards;
 }
 
 
 @keyframes hello1 {
-    from {
-        opacity: 0;
-        transform: translatey(200%);
-    }
+	from {
+		opacity: 0;
+		transform: translatey(200%);
+	}
 
-    to {
-        opacity: 1;
-        transform: translatey(0%);
-    }
+	to {
+		opacity: 1;
+		transform: translatey(0%);
+	}
 }
 
 .side {
-    display: flex;
-    margin: auto;
-    padding: 5px;
-    width: 100%;
+	display: flex;
+	margin: auto;
+	padding: 5px;
+	width: 100%;
 }
 
 .title {
-    letter-spacing: 6px;
-    font-weight: bolder;
-    font-size: 11px;
-    text-transform: uppercase;
+	letter-spacing: 6px;
+	font-weight: bolder;
+	font-size: 11px;
+	text-transform: uppercase;
 }
 
 .stylish-passion {
-    background-image: -webkit-linear-gradient(0deg, #ff8541, #ff8541);
-    font-family: 'CabinetGrotesk-Black';
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
+	background-image: -webkit-linear-gradient(0deg, #ff8541, #ff8541);
+	font-family: 'CabinetGrotesk-Black';
+	-webkit-background-clip: text;
+	background-clip: text;
+	color: transparent;
 }
 
 .inline_title {
-    font-size: 14vw;
-    line-height: normal;
-    overflow-wrap: break-word;
-    font-weight: 900;
-    letter-spacing: 6px;
-    margin: auto;
-    max-width: 1252px;
-    text-transform: uppercase;
-    animation: hello 2s ease forwards;
+	font-size: 14vw;
+	line-height: normal;
+	overflow-wrap: break-word;
+	font-weight: 900;
+	letter-spacing: 6px;
+	margin: auto;
+	max-width: 1252px;
+	text-transform: uppercase;
+	animation: hello 2s ease forwards;
 }
 
 @keyframes hello {
-    from {
-        opacity: 0;
-        transform: translatey(20%);
-    }
+	from {
+		opacity: 0;
+		transform: translatey(20%);
+	}
 
-    to {
-        opacity: 1;
-        transform: translatey(0%);
-    }
+	to {
+		opacity: 1;
+		transform: translatey(0%);
+	}
 }
 
 @media (prefers-reduced-motion: no-preference) {
-    a:nth-of-type(2n+1) .logos {
-        animation: logo-spin infinite 3s linear;
-        -webkit-animation: webkit-rotation infinite 3s linear;
-        -moz-animation: moz-rotation infinite 3s linear;
-        -o-animation: o-rotation infinite 3s linear;
-    }
+	a:nth-of-type(2n+1) .logos {
+		animation: logo-spin infinite 3s linear;
+		-webkit-animation: webkit-rotation infinite 3s linear;
+		-moz-animation: moz-rotation infinite 3s linear;
+		-o-animation: o-rotation infinite 3s linear;
+	}
 }
 
 @keyframes logo-spin {
-    from {
-        transform: rotate(0deg);
-    }
+	from {
+		transform: rotate(0deg);
+	}
 
-    to {
-        transform: rotate(359deg);
-    }
-}
-
-.card button {
-    letter-spacing: 3px;
-    margin-top: 10px;
-    text-align: center;
-    width: 224px;
-    text-decoration: none;
-    background: black;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    color: #FFFFE3;
+	to {
+		transform: rotate(359deg);
+	}
 }
 
 .read-the-docs {
-    color: #888;
+	color: #888;
 }
 
 @media only screen and (min-width: 520px) {
-    #root {
-        margin-top: 10% !important;
-    }
+	#root {
+		margin-top: 10% !important;
+	}
 }
 
 @media only screen and (min-width: 600px) {
-    .inline_title {
-        font-size: calc(3.5rem + 5vmin);
-        line-height: 86px;
-    }
+	.inline_title {
+		font-size: calc(3.5rem + 5vmin);
+		line-height: 86px;
+	}
 
-    .logoMe {
-        max-height: calc(4.5rem + 5vmin);
-    }
+	.logoMe {
+		max-height: calc(4.5rem + 5vmin);
+	}
 
-    .card button {
-        margin-top: 0px;
-    }
-
-    #root {
-        margin-top: 0;
-    }
+	#root {
+		margin-top: 0;
+	}
 }
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (-webkit-min-device-pixel-ratio : 2) {
-    .inline_title {
-        font-size: 14vw;
-        line-height: 11vh;
-    }
+	.inline_title {
+		font-size: 14vw;
+		line-height: 11vh;
+	}
 
-    .card button {
-        margin-top: 57px;
-        margin: auto;
-        text-align: center;
-        width: 324px;
-    }
-
-    #root {
-        margin-top: 15% !important;
-    }
+	#root {
+		margin-top: 15% !important;
+	}
 }
 
 @media only screen and (min-width: 992px) {
-    .inline_title {
-        font-size: calc(5.5rem + 6vmin);
-        line-height: 120px;
-        text-align: center;
-    }
+	.inline_title {
+		font-size: calc(5.5rem + 6vmin);
+		line-height: 120px;
+		text-align: center;
+	}
 
-    #root {
-        margin-top: 0% !important;
-    }
+	#root {
+		margin-top: 0% !important;
+	}
 }
 
 @media screen and (min-width: 1400px) {
-    .inline_title {
-        font-size: 17dvh;
-        line-height: 159px;
-        text-align: center;
-    }
+	.inline_title {
+		font-size: 17dvh;
+		line-height: 159px;
+		text-align: center;
+	}
 }

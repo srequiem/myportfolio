@@ -6,13 +6,13 @@ import '/src/containers/App.css';
 
 
 const App = () => {
-  return (
-    <div className="App">
-      <Routes>
-        <Route path="/" element={<Home />} />
-      </Routes>
-    </div>
-  )
+	return (
+		<div className="App">
+			<Routes>
+				<Route path="/" element={<Home />} />
+			</Routes>
+		</div>
+	)
 }
 
 export default App;

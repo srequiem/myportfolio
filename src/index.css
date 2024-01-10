@@ -1,96 +1,96 @@
 :root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
+	font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 400;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
+	color-scheme: light dark;
+	color: rgba(255, 255, 255, 0.87);
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-text-size-adjust: 100%;
 }
 
 a {
-  font-weight: 500;
-  color: #0e0ea2;
-  text-decoration: inherit;
+	font-weight: 500;
+	color: #0e0ea2;
+	text-decoration: inherit;
 }
 
 a:hover {
-  color: #0e0ea2b5;
+	color: #0e0ea2b5;
 }
 
 body {
-  background: black;
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+	background: black;
+	margin: 0;
+	display: flex;
+	place-items: center;
+	min-width: 320px;
+	min-height: 100vh;
 }
 
 .darkfont {
-  color: black;
+	color: black;
 }
 
 .bluedarkfont {
-  background: darkblue;
+	background: darkblue;
 }
 
 .whitebgrd {
-  background: white;
+	background: white;
 }
 
 .stars-color {
-  color: rgb(240 167 41);
+	color: rgb(240 167 41);
 }
 
 .bigTitle {
-  font-size: 44px;
-  letter-spacing: .004em;
-  line-height: 1.125;
-  margin: 0px;
-  padding: 50px 24px 19px 24px;
+	font-size: 44px;
+	letter-spacing: .004em;
+	line-height: 1.125;
+	margin: 0px;
+	padding: 50px 24px 19px 24px;
 }
 
 .subtitles {
-  font-family: 'CabinetGrotesk-Medium';
-  margin-top: 0px;
+	font-family: 'CabinetGrotesk-Medium';
+	margin-top: 0px;
 }
 
 h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+	font-size: 3.2em;
+	line-height: 1.1;
 }
 
 button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
+	border-radius: 8px;
+	border: 1px solid transparent;
+	padding: 0.6em 1.2em;
+	font-size: 1em;
+	font-weight: 500;
+	font-family: inherit;
+	background-color: #1a1a1a;
+	cursor: pointer;
+	transition: border-color 0.25s;
 }
 
 
 @media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
+	:root {
+		color: #213547;
+		background-color: #ffffff;
+	}
 
-  a:hover {
-    color: #747bff;
-  }
+	a:hover {
+		color: #747bff;
+	}
 
-  button {
-    background-color: #f9f9f9;
-  }
+	button {
+		background-color: #f9f9f9;
+	}
 }

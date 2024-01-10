@@ -1,38 +1,38 @@
 .whoami {
-    background: white;
-    color: black;
-    font-family: Open Sans, Arial, sans-serif;
-    font-size: 11px;
-    font-weight: bolder;
-    margin: auto;
-    /* margin-top: 100px; */
-    padding: 25px;
+	background: white;
+	color: black;
+	font-family: Open Sans, Arial, sans-serif;
+	font-size: 11px;
+	font-weight: bolder;
+	margin: auto;
+	/* margin-top: 100px; */
+	padding: 25px;
 }
 
 .whoami p {
-    color: #72727d;
-    font-family: Roboto, Arial, sans-serif;
-    font-size: 0.8rem;
-    text-align: left;
+	color: #72727d;
+	font-family: Roboto, Arial, sans-serif;
+	font-size: 0.8rem;
+	text-align: left;
 }
 
 .titleWhoami {
-    font-size: 2.2rem;
-    font-weight: 600;
-    letter-spacing: 1px;
-    padding-bottom: 19px;
-    text-align: left;
+	font-size: 2.2rem;
+	font-weight: 600;
+	letter-spacing: 1px;
+	padding-bottom: 19px;
+	text-align: left;
 }
 
 .miniTitleWhoami {
-    font-size: 1rem;
-    font-weight: 600;
-    text-align: left;
+	font-size: 1rem;
+	font-weight: 600;
+	text-align: left;
 }
 
 .contact {
-    font-size: 1.5rem;
-    font-weight: 600;
-    text-align: center;
-    letter-spacing: 1px;
+	font-size: 1.5rem;
+	font-weight: 600;
+	text-align: center;
+	letter-spacing: 1px;
 }

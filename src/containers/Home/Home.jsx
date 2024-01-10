@@ -14,37 +14,42 @@ import '/src/containers/Home/Home.css';
 import me from '/meme.png';
 
 const Home = () => {
-  const [popupVisible, setPopupVisible] = useState(false);
+	const [popupVisible, setPopupVisible] = useState(false);
 
-  const handleMove = () => {
-    const element = document.getElementById('Contact');
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
-    }
-  }
-  return (
-    <>
-      <div className='homeContainer'>
-        <div className='homeItems'>
-          <img src={me} style={{ maxHeight: '220px', maxWidth: '220px', margin: 'auto' }} alt="Myself logo" />
-          <h1 className='title'>Sacha Requiem</h1>
-        </div>
-        <div className='homeItems'>
-          <div className='inline_title'>Made by<br /> passion, Powered by <span className="stylish-passion">React</span></div>
-        </div>
+	const handleMove = () => {
+		const element = document.getElementById('Contact');
+		if (element) {
+			element.scrollIntoView({ behavior: 'smooth' });
+		}
+	}
+	return (
+		<>
+			<div className='homeContainer'>
+				<div className='homeItems'>
+					<img
+						src={me}
+						style={{ maxHeight: '220px', maxWidth: '220px', margin: 'auto' }}
+						alt="Myself logo" />
+					<h1 className='title'>Sacha Requiem</h1>
+				</div>
+				<div className='homeItems'>
+					<div className='inline_title'>
+						Made by<br /> passion, Powered by <span className="stylish-passion">React</span>
+					</div>
+				</div>
 
-        <button className='homeContactButton' onClick={handleMove}>
-          {'CONTACT'}
-        </button>
-      </div>
-      <Contact isVisible={popupVisible} setVisible={setPopupVisible} />
-      <Meetme />
-      <Studies />
-      <Jobs />
-      <Feedback />
-      <Contact isVisible={true} setVisible={setPopupVisible} />
-    </>
-  )
+				<button className='homeContactButton' onClick={handleMove}>
+					{'CONTACT'}
+				</button>
+			</div>
+			<Contact isVisible={popupVisible} setVisible={setPopupVisible} />
+			<Meetme />
+			<Studies />
+			<Jobs />
+			<Feedback />
+			<Contact isVisible={true} setVisible={setPopupVisible} />
+		</>
+	)
 }
 
 export default Home;

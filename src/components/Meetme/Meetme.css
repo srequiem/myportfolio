@@ -1,62 +1,62 @@
 .Meetme {
-    width: 100vw;
-    margin-top: 70px;
-    margin-bottom: 50px;
-    position: relative;
-    color: white;
+	width: 100vw;
+	margin-top: 70px;
+	margin-bottom: 50px;
+	position: relative;
+	color: white;
 }
 
 .Meetme img {
-    width: inherit;
-    max-width: 640px;
-    padding-top: 75px;
+	width: inherit;
+	max-width: 640px;
+	padding-top: 75px;
 }
 
 .Meetme_titlebig {
-    font-size: 34px;
-    letter-spacing: .004em;
-    line-height: 1.125;
-    margin-top: -17px;
-    animation: title 1s ease forwards;
-    font-family: 'CabinetGrotesk-Bold';
+	font-size: 34px;
+	letter-spacing: .004em;
+	line-height: 1.125;
+	margin-top: -17px;
+	animation: title 1s ease forwards;
+	font-family: 'CabinetGrotesk-Bold';
 }
 
 @keyframes title {
-    from {
-        opacity: .5;
-        transform: translatey(80%);
-    }
+	from {
+		opacity: .5;
+		transform: translatey(80%);
+	}
 
-    to {
-        opacity: 1;
-        transform: translatey(0%);
-    }
+	to {
+		opacity: 1;
+		transform: translatey(0%);
+	}
 }
 
 .Meetme_subtitle {
-    font-size: 18px;
-    letter-spacing: .004em;
-    line-height: 1.125;
-    font-family: 'CabinetGrotesk-Medium';
+	font-size: 18px;
+	letter-spacing: .004em;
+	line-height: 1.125;
+	font-family: 'CabinetGrotesk-Medium';
 }
 
 .Meetme video {
-    width: 100vw;
-    height: 65vh;
-    object-fit: cover;
-    position: relative;
+	width: 100vw;
+	height: 65vh;
+	object-fit: cover;
+	position: relative;
 }
 
 @media only screen and (min-width: 992px) {
-    .Meetme {
-        height: auto;
-    }
+	.Meetme {
+		height: auto;
+	}
 
-    .Meetme_subtitle {
-        font-size: 25px;
-    }
+	.Meetme_subtitle {
+		font-size: 25px;
+	}
 
-    .Meetme video {
-        height: 85vh;
-    }
+	.Meetme video {
+		height: 85vh;
+	}
 }
