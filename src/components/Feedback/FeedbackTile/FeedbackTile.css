@@ -2,11 +2,14 @@
 	position: relative;
 	padding: 20px;
 	border-radius: 20px;
+	transform-style: preserve-3d;
+	transform: perspective(100000px);
 }
 
 .feedback-title {
 	text-align: left;
 	margin-bottom: 5px;
+	transform: translateZ(40px);
 }
 
 .feedback-subtitle {
@@ -15,6 +18,7 @@
 	margin-top: 0px;
 	font-size: 15px;
 	color: grey;
+	transform: translateZ(30px);
 }
 
 .title-stars {
@@ -23,6 +27,7 @@
 	font-size: 20px;
 	margin-top: 7px;
 	text-align: left;
+	transform: translateZ(40px);
 }
 
 .stars {
@@ -31,6 +36,7 @@
 	margin-bottom: 10px;
 	font-size: 12px;
 	letter-spacing: 1px;
+	transform: translateZ(40px);
 }
 
 .long-text {
@@ -38,4 +44,5 @@
 	text-align: left;
 	font-family: 'CabinetGrotesk-Bold';
 	margin-top: 0px;
+	transform: translateZ(35px);
 }

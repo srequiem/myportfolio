@@ -1,8 +1,20 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+
+import VanillaTilt from 'vanilla-tilt';
 
 import './FeedbackTile.css';
 
 const FeedbackTile = ({ name, position, title, text }) => {
+
+	useEffect(() => {
+		VanillaTilt.init(document.querySelectorAll(".feedback_tile"), {
+			max: 15,
+			speed: 400,
+			glare: true,
+			"max-glare": 0.1,
+		})
+	});
+
 	return (
 		<div className='feedback_tile whitebgrd'>
 			<h2 className='feedback-title'>{name}</h2>
