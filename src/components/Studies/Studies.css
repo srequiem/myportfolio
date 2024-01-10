@@ -53,14 +53,14 @@
 	font-family: 'CabinetGrotesk-Black';
 	margin: auto;
 	margin-top: 16px;
-	transform: translateZ(30px);
+	transform: translateZ(40px);
 }
 
 .items_title {
 	font-size: 25px;
 	font-family: 'CabinetGrotesk-Bold';
 	margin-bottom: 5px;
-	transform: translateZ(30px);
+	transform: translateZ(40px);
 }
 
 .items_subtitle {
@@ -68,6 +68,7 @@
 	font-family: 'CabinetGrotesk-Bold';
 	margin-top: 10px;
 	color: rgba(255, 255, 255, 0.6);
+	transform: translateZ(30px);
 }
 
 .items_title2 {
@@ -75,11 +76,11 @@
 	font-family: 'CabinetGrotesk-Bold';
 	margin-bottom: 10px;
 	margin-top: 0px;
-	transform: translateZ(30px);
+	transform: translateZ(40px);
 }
 
 .techno {
-	transform: translateZ(30px);
+	transform: translateZ(40px);
 }
 
 @media only screen and (min-width: 420px) {
